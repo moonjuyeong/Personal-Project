@@ -1,0 +1,56 @@
+/* 초기화 코드 */
+body, h1, h2, h3, h4, h5, h6, ul {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    /* font-family: 'Nanum Myeongjo', serif; */
+    color: #333;
+    text-align: center;
+}
+
+li {
+    display: inline;
+}
+
+h1, h2 {
+    border: 2px solid blue;
+    display: inline;
+}
+
+
+video {
+    width: 100%;
+}
+
+a {
+    border: 2px solid red;
+    color: #333;
+    text-decoration: none;
+    display: inline;
+}
+a:hover {
+    color: #0077ed;
+}
+
+.desktop_inline {
+    display: none;
+}
+
+
+@media screen and (min-width:720px) {
+   
+}
+
+@media screen and (min-width:1024px) {
+    .desktop_inline {
+        display: inline;
+    }
+}
+
+@media screen and (min-width:1440px) {
+   
+}
